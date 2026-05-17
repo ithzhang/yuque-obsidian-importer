@@ -1,5 +1,7 @@
 # Yuque Obsidian Importer
 
+[中文说明](README.zh-CN.md)
+
 Codex skill and helper script for importing Yuque/语雀 `.lakebook` knowledge-base exports into an Obsidian vault.
 
 It converts Yuque Lake HTML documents to Markdown, preserves the Yuque TOC hierarchy, downloads Yuque CDN images into local `_assets` folders, and writes Obsidian-friendly frontmatter.
@@ -120,4 +122,3 @@ python -c "import pathlib,re; root=pathlib.Path('/path/to/Obsidian Vault'); targ
 - `.lakebook` is normally a tar archive, not a zip archive.
 - If image downloads fail because of DNS/network restrictions, rerun in an environment with network access. Markdown conversion can still succeed, but remote image links may remain.
 - Some Yuque exports contain metadata-only documents with no body. The script keeps a placeholder note for those entries.
-
