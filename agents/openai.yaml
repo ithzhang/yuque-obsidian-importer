@@ -1,0 +1,4 @@
+interface:
+  display_name: "Yuque Obsidian Importer"
+  short_description: "Import Yuque lakebook exports into Obsidian vaults."
+  default_prompt: "Import this Yuque .lakebook into my Obsidian vault."
